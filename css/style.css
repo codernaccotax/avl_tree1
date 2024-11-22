@@ -1,0 +1,51 @@
+h1{
+	margin-top: 2%;
+	font-size: 60px;
+	text-align: center;
+	color:#9CB5ED;
+	font-weight: bold;
+
+}
+.btn{
+	background: #fff;
+	color:#9CB5ED;
+	display: inline;
+	border: 2px solid #C8C8C8;
+	padding: 5px;
+	font-size: 40px;
+	border-radius: 10%;
+	cursor: pointer;
+}
+input{
+	width: 100px;
+    height: 24px;
+    border: 1px solid #C8C8C8;
+    border-radius: 4%;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+.operations{
+	margin-top:10%;
+	margin-left: -110px;
+}
+
+.add, .delete, .search{
+	transition: all ease-in-out 0.5s;
+	transition: all ease-in-out 0.5s;
+	position: relative;
+	z-index: 1000;
+	width: 200px;
+
+}
+.add:hover, .delete:hover, .search:hover{
+	margin-left: 110px;	
+	transition: all ease-in-out 0.5s;
+}
+
+.fa-search{
+	font-size: 35px;
+}
+#tree-container{
+	margin-top:-20%;
+}
